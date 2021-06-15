@@ -19,7 +19,7 @@ Flutter plugin for Advertising Identifier.
   s.platform = :ios, '8.0'
 
   s.subspec 'vendor' do |sp|
-    sp.frameworks = 'AdSupport', 'AppTrackingTransparency'
+    sp.weak_frameworks = 'AdSupport', 'AppTrackingTransparency'
   end
 
   # Flutter.framework does not contain a i386 slice.

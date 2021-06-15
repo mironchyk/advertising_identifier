@@ -1,6 +1,6 @@
 #import "AdvertisingIdentifierPlugin.h"
-#import <AdSupport/AdSupport.h>
-#import <AppTrackingTransparency/AppTrackingTransparency.h>
+@import AdSupport;
+@import AppTrackingTransparency;
 
 @implementation AdvertisingIdentifierPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar> *)registrar {
